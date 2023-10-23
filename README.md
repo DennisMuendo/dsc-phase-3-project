@@ -20,23 +20,23 @@ Our dataset contains information about the respondents, such as their level of c
 ## Modeling
 ### Decision Tree
 Decision Tree operates by making decisions at each internal node of the tree and recursively dividing the dataset into subsets according to the values of input features. The end result is a structure that resembles a tree, with the class labels represented by its leaves.
-![Example Image](./images/decision_tree_plot.jpg)
-![Example Image](./images/decision_tree.jpg)
+![Example Image](./images/decision_tree_plot.png)
+![Example Image](./images/decision_tree.png)
 
 
 ### Logistic Regresion
 Logistic Regression analysis of this kind uses a binary dependent variable. Based on the values of the independent variables, logistic regression seeks to calculate the likelihood that a given instance belongs to a certain class.
-![Example Image](./images/Logistic.jpg)
+![Example Image](./images/Logistic.png)
 
 
 ### Random Forest
 Random Forest is a machine learning algorithm that uses a bagging technique. It is a development of the decision tree algorithm that makes predictions by combining different decision trees. As a result, the Random Forest algorithm's model predicts the outcome based on the votes of the majority of all the decision trees in the forest, reducing overfitting. The robustness and versatility of random forests in handling large, complicated datasets are well known.
-![Example Image](./images/Random.jpg)
+![Example Image](./images/Random.png)
 
 ### XGBoost
 The final algorithm used is Gradient Boosting (XGBoost). In this case, the algorithm uses an ensemble of weak decision trees. The algorithm uses gradient descent to minimize the loss function of the model, concentrates on where the model went wrong, and creates new learners. XGBoost has been found to outperform Random Forests in many instances.
-![Example Image](./images/XGBoost confusion matrix.jpg)
-![Example Image](./images/XGBoost.jpg)
+![Example Image](./images/XGBoost confusion matrix.png)
+![Example Image](./images/XGBoost.png)
 
 ## Conclusion
 All three models (Logistic Regression, Random Forest, and XGBoost) achieved reasonably good accuracy, precision, and recall scores. These scores indicate that the models are generally effective at making binary classification predictions. A comparison of multiple classifiers, including Logistic Regression, Random Forest, Decision Tree, and XGBoost, was conducted. As observed that XGBoost had the highest accuracy and balanced precision and recall, making it a strong performer in this binary classification task.
